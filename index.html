@@ -1,18 +1,66 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Mit HTML</title>    
+<title>Langelandsfortet</title>    
 <meta charset="utf-8"/>
 <meta name="description" content="HTML Kursus for Kistoffer Grum" />
 <link rel="stylesheet" type="text/css" href="css.css">
+<sript type="text/javescript" src="script.js"></sript>
 </head>
 <body>
+    <header><h1>Langelandsfortet</h1> </header>
+    
+    <nav class="topnav">
+        <a href="index.html" class="active">Menu</a>
+        <div id="myLinks">
+            <a href="News">dggd</a>
+            <a href="Contact">fdgdfgdf</a>
+            <a href="About">gfdgfd</a>
+        </div>
+        
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <p>&#9776;</p>
+        </a>
+    
+    <script>
+        
+        function myFunction() {
+    var x = document.getElementById("mylinks");
+    if (x.style.display === "block") {
+            x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+}
+        
+        
+        
+        </script>
     
     
     
     
+    </nav>
     
+    <section class="praktiskeoplysninger"><h2>Praktiske informationer</h2></section>
     
+    <section class="fortet"><h2>Fortet</h2></section>
+    
+    <section class="historien"><h2>Historien</h2></section>
+    
+    <section class="familienmed"><h2>Tag hele familien med!</h2> </section>
+    
+    <footer>
+        <article class="foelgos"> <p class="footertekst">Følg os!</p> <img class="some" src="Billeder/Ikoner/fb_icon_325x325.png"><img class="some" src="Billeder/Ikoner/instagram.png"><img class="some" src="Billeder/Ikoner/zRim1x6M_400x400.jpg"> </article>
+        
+        
+        
+        <article class="findos"><p class="footertekst">Find os!</p> <p class="footertekstfindos">Koldkrigsmuseum Langelandsfort <br> Vognsbjergvej 4B, 5935 Bagenkop<br> langelandsfort@mail.dk<br> Tlf.: (+45) 62562700</p></article>
+        
+        
+        
+        <article class="aabningstider"><p class="footertekst">Åbningstider</p><p class="footeraabningstider">Mandag - Søndag <br> Kl. 10-17</p></article>
+    </footer>
     
 </body>
 </html>
