@@ -5,87 +5,77 @@
 }
 
 
+body{
+    background-color: 
+}
 
 header {
-    border: 1px solid;
-    height: 20vh;
+    
+    height: 15vh;
     width: auto;
-    margin-bottom: 2.5vh;
-    background-image: url(Billeder/bunker.JPG);
-    background-size: cover;
+    background-image: url(Billeder/Tegnebr%C3%A6t%201.png);
+    background-size: contain;
     background-repeat: no-repeat;
+    background-color: 
 }
 
 h1 {
+    opacity: 0;
     font-size: 120px;
     position: relative;
     float: left;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    color: red; 
-    
+    transform: translate(-50%, -50%); 
+}
+
+nav {
+    margin-bottom: 2vh;
 }
  
 /* burger menu */
 
 .topnav {
-    overflow: hidden;
-    background-color: #333;
-    position: relative;
+  overflow: hidden;
+  background-color: grey;
+  position: relative;
 }
 
 .topnav #myLinks {
-    display: none;
+  display: none;
 }
 
 .topnav a {
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 50px;
+  display: block;
 }
 
 .topnav a.icon {
-    background: black;
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
 .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-}
-
-.active {
-    background-color: #4CAF50;
-    color: white;
-    
+  background-color: #ddd;
+  color: black;
 }
 
 /*burgermenu slut */
 
-.burgermenu {
-    border: 1px solid;
-    height: 100%;
-    width: 10vh;
-    float: right;
-    background-color: white;
-    clear: both;
-}
+
 
 h2 {
     font-size: 60px;
-    position: relative;
-    float: left;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
+    text-align: center;
+    background: rgba(255,255,255, .5);
 }
+
 
 .praktiskeoplysninger {
     border: 1px solid;
@@ -98,6 +88,7 @@ h2 {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 
 .fortet {
     border: 1px solid;
@@ -138,7 +129,7 @@ h2 {
 
 footer{
     border: 1px solid;
-    height: 33.3vh;
+    height: 39vh;
     width: 100%;
     margin-bottom: 2.5vh;
     
@@ -146,7 +137,7 @@ footer{
 
 .foelgos {
     border: 1px solid;
-    height: 10vh;
+    height: 13vh;
     width: 100%;
     text-align: center;
 }
@@ -159,17 +150,19 @@ footer{
 
 .findos {
      border: 1px solid;
-    height: 13.3vh;
+    height: 13vh;
     width: 100%;
     float: left;
     text-align: center;
 }
 .aabningstider{
       border: 1px solid;
-    height: 10vh;
+    height: 13vh;
     width: 100%;
     float: left;
     text-align: center;
+    
+    
 }
 
 .footeraabningstider {
@@ -179,9 +172,11 @@ footer{
 
 .footertekst {
     font-size: 40px;
+    margin-top: 1vh
 }
 
 .footertekstfindos {
     font-size: 30px;
     color: black;
+    
 }
