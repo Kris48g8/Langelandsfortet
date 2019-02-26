@@ -79,6 +79,11 @@ h2 {
     background: rgba(255,255,255, .5);
 }
 
+.linktilnyesider {
+    text-decoration: none;
+    color: black;
+}
+
 
 .praktiskeoplysninger {
     border: 1px solid;
@@ -119,7 +124,7 @@ h2 {
 
 .familienmed {
     border: 1px solid;
-    height: 40vh;
+    height: 30vh;
     width: 90%;
     margin-bottom: 2.5vh;
     margin-right: auto;
@@ -181,6 +186,8 @@ footer{
     height: 35vh;
     width: 100%;
     background: rgba(120,120,120, .2);
+    float: right;
+    margin-top: 2vh
     
     
 }
@@ -227,4 +234,26 @@ footer{
 .footertekstfindos {
     font-size: 30px;
     color: black;
+}
+
+
+
+/* Praktiske informationer */
+
+.informationer {
+    height: 50vh;
+    widows: 90%;
+    background: rgba(120,120,120, .2);
+}
+
+.praktiskinfotekst{
+    font-size: 25px;
+    width: 60%;
+    float: left;
+
+}
+
+.sponsorimg{
+    float: right;
+    padding-right: 50px;
 }
