@@ -6,7 +6,7 @@
 
 
 body{
-    background-color: 
+    background: rgba(120,120,120, .1);
 }
 
 header {
@@ -16,6 +16,7 @@ header {
     background-image: url(Billeder/Tegnebr%C3%A6t%201.png);
     background-size: contain;
     background-repeat: no-repeat;
+    margin-top: 2vh;
     background-color: 
 }
 
@@ -35,9 +36,11 @@ nav {
  
 /* burger menu */
 
+
+
 .topnav {
   overflow: hidden;
-  background-color: grey;
+  background: rgba(120,120,120, .2);
   position: relative;
 }
 
@@ -51,10 +54,10 @@ nav {
   text-decoration: none;
   font-size: 50px;
   display: block;
+  color: black;
 }
 
 .topnav a.icon {
-  background: black;
   display: block;
   position: absolute;
   right: 0;
@@ -71,7 +74,7 @@ nav {
 
 
 h2 {
-    font-size: 60px;
+    font-size: 90px;
     text-align: center;
     background: rgba(255,255,255, .5);
 }
@@ -127,19 +130,63 @@ h2 {
 }
 
 
+.nyheder {
+    height: 60vh;
+    width: 90%;
+    background: rgba(120,120,120, .2);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.top {
+    height: 10vh;
+    background: rgba(120,120,120, .2);
+}
+
+h3 {
+    font-size: 90px;
+    text-align: center;
+    height: 10vh;
+    
+}
+
+
+.nyhed1 {
+    height: 10vh;
+    padding-top: 5px
+}
+
+.nyhed2 {
+    height: 10vh;
+    background: rgba(120,120,120, .2);
+    padding-top: 5px
+}
+
+
+h4 {
+    font-size: 30px;
+}
+
+.nyhedstekst {
+    font-size: 20px
+}
+
+
 footer{
-    border: 1px solid;
-    height: 39vh;
+    height: 35vh;
     width: 100%;
     margin-bottom: 2.5vh;
+    background: rgba(120,120,120, .2);
+    
     
 }
 
 .foelgos {
-    border: 1px solid;
-    height: 13vh;
+    border-bottom: dotted 6px;
+    height: 10vh;
     width: 100%;
     text-align: center;
+    
 }
 
 .some {
@@ -149,25 +196,22 @@ footer{
 }
 
 .findos {
-     border: 1px solid;
-    height: 13vh;
+    border-bottom: dotted 6px;
+    height: 15vh;
     width: 100%;
     float: left;
     text-align: center;
 }
 .aabningstider{
-      border: 1px solid;
-    height: 13vh;
+    
+    height: 10vh;
     width: 100%;
     float: left;
     text-align: center;
-    
-    
 }
 
 .footeraabningstider {
     font-size: 30px;
-
 }
 
 .footertekst {
@@ -178,5 +222,4 @@ footer{
 .footertekstfindos {
     font-size: 30px;
     color: black;
-    
 }
