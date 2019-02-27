@@ -675,9 +675,10 @@ input[type=submit]:hover {
 /* Media Qurries for tablet */
 
 @media only screen and (min-width: 1080px) {
-        header {
+    header {
         height: 20vh;
     }
+    
     .praktiskeoplysninger {
         width: 45%;
         float: left;
