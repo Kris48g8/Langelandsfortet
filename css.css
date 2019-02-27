@@ -136,7 +136,7 @@ h2 {
 
 
 .nyheder {
-    height: 80vh;
+    height: 100em;
     width: 90%;
     background: rgba(120,120,120, .2);
     margin-right: auto;
@@ -144,26 +144,26 @@ h2 {
 }
 
 .top {
-    height: 10vh;
+    height: 10em;
     background: rgba(120,120,120, .2);
 }
 
 h3 {
     font-size: 90px;
     text-align: center;
-    height: 10vh;
+    height: 10em;
     padding-top: 25px
     
 }
 
 
 .nyhed1 {
-    height: 14vh;
+    height: 18em;
     padding-top: 5px
 }
 
 .nyhed2 {
-    height: 14vh;
+    height: 18em;
     background: rgba(120,120,120, .2);
     padding-top: 5px
 }
@@ -183,7 +183,7 @@ h4 {
 
 
 footer{
-    height: 35vh;
+    height: 40em;
     width: 100%;
     background: rgba(120,120,120, .2);
     float: right;
@@ -194,28 +194,28 @@ footer{
 
 .foelgos {
     border-bottom: dotted 6px;
-    height: 10vh;
+    height: 12em;
     width: 100%;
     text-align: center;
     
 }
 
 .some {
-    height: 5vh;
+    height: 5em;
    
     
 }
 
 .findos {
     border-bottom: dotted 6px;
-    height: 15vh;
+    height: 16em;
     width: 100%;
     float: left;
     text-align: center;
 }
 .aabningstider{
     
-    height: 10vh;
+    height: 10em;
     width: 100%;
     float: left;
     text-align: center;
@@ -227,7 +227,6 @@ footer{
 
 .footertekst {
     font-size: 40px;
-    margin-top: 1vh;
     padding-top: 10px
 }
 
@@ -241,7 +240,7 @@ footer{
 /* Praktiske informationer */
 
 .informationer {
-    height: 60vh;
+    height: 65em;
     widows: 90%;
     background: rgba(120,120,120, .2);
 }
@@ -325,7 +324,7 @@ footer{
 /* Historien */
 
 .historierubrik {
-    height: 215vh;
+    height: 235em;
     widows: 90%;
     background: rgba(120,120,120, .2);
 }
@@ -342,7 +341,7 @@ footer{
 
 
 .familierubrik {
-    height: 215vh;
+    height: 15em;
     widows: 90%;
     background: rgba(120,120,120, .2);
     
@@ -351,10 +350,54 @@ footer{
 .familie {
      font-size: 25px;
     width: 100%;
+    width: 100%;
     padding-left: 15px;
     padding-right: 15px; 
 }
 
 .familiefoto {
-    
+      border: 1px solid;
+    height: 30vh;
+    width: 90%;
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url(Billeder/familie.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Kontakt form */
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.indsendknap {
+    font-size: 1.3em
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+.formcontainer {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    font-size: 3em;
+}
+
+.bokssize {
+    font-size: 1em
 }
