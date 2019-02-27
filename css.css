@@ -393,11 +393,97 @@ input[type=submit]:hover {
 
 .formcontainer {
     border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-    font-size: 3em;
+    background: rgba(120,120,120, .2);
+    font-size: 2em;
+    width: 90%;
+    margin-top: 2.5vh;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 15px
 }
 
 .bokssize {
     font-size: 1em
+}
+
+/* Henvendelses funktion */
+
+.henvendelse {
+     height: 10em;
+    widows: 90%;
+    background: rgba(120,120,120, .2);
+}
+
+/* Hvem er v */
+
+.hvemervitekst {
+    font-size: 25px;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px; 
+    column-count: 1;
+}
+
+.hvemervirubrik {
+    height: 18em;
+    widows: 90%;
+    background: rgba(120,120,120, .2);
+}
+
+.hvemerviimg {
+     border: 1px solid;
+    height: 30vh;
+    width: 90%;
+    margin-bottom: 2.5vh;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url(Billeder/Special%20Forcesi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* Undersider til "fortet" */
+
+.pansertekst {
+    font-size: 25px;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px; 
+    column-count: 2;
+}
+
+.panserrubrik {
+      height: 65em;
+    widows: 90%;
+    background: rgba(120,120,120, .2);
+    margin-bottom: 2.5vh
+}
+
+.bunkerrubrik {
+      height: 40em;
+    widows: 90%;
+    background: rgba(120,120,120, .2);
+    margin-bottom: 2.5vh
+}
+
+.luftvåbenrubrik {
+       height: 73em;
+    widows: 90%;
+    background: rgba(120,120,120, .2);
+    margin-bottom: 2.5vh
+}
+
+.kanonerrubrik {
+      height: 42em;
+    widows: 90%;
+    background: rgba(120,120,120, .2);
+    margin-bottom: 2.5vh
+}
+
+.skiberubrik {
+         height: 146em;
+    widows: 90%;
+    background: rgba(120,120,120, .2);
+    margin-bottom: 2.5vh
 }
