@@ -3,6 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
 }
+    
 
 
 body{
@@ -272,7 +273,31 @@ footer{
     background-repeat: no-repeat;
 }
 
+.tank2 {
+    border: 1px solid;
+    height: 30vh;
+    width: 90%;
+    margin-bottom: 2.5vh;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url(Billeder/panserjager.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .fly {
+     border: 1px solid;
+    height: 30vh;
+    width: 90%;
+    margin-bottom: 2.5vh;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url(Billeder/draken.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fly2 {
      border: 1px solid;
     height: 30vh;
     width: 90%;
@@ -296,6 +321,19 @@ footer{
     background-repeat: no-repeat;
 }
 
+.bunkere2 {
+     border: 1px solid;
+    height: 30vh;
+    width: 90%;
+    margin-bottom: 2.5vh;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url(Billeder/underjordiske-bunkere.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
 .kanoner {
      border: 1px solid;
     height: 30vh;
@@ -308,6 +346,17 @@ footer{
     background-repeat: no-repeat;
 }
 
+.kanoner2 {
+     border: 1px solid;
+    height: 30vh;
+    width: 90%;
+    margin-bottom: 2.5vh;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url(Billeder/kanon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 .springeren {
      border: 1px solid;
@@ -320,6 +369,19 @@ footer{
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.springeren2 {
+     border: 1px solid;
+    height: 30vh;
+    width: 90%;
+    margin-bottom: 2.5vh;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url(Billeder/springeren.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 
 /* Historien */
 
@@ -487,3 +549,142 @@ input[type=submit]:hover {
     background: rgba(120,120,120, .2);
     margin-bottom: 2.5vh
 }
+    
+
+@media screen and (min-width: 600px) and (orientation: landscape) {
+    header {
+        height: 40vh;
+    }
+    .praktiskeoplysninger {
+        width: 45%;
+        float: left;
+        margin-right: 5%;
+        margin-top: 2vh;
+    }
+    
+    .fortet {
+        width: 45%;
+        float: right;
+        margin-top: 2vh;
+    }
+    
+    .historien {
+         width: 45%;
+        float: left;
+        margin-right: 5%
+    }
+    
+    .familienmed {
+        width: 45%;
+        float: right;
+    }
+    
+    h2 {
+        font-size: 2em
+    }
+    
+    .nyheder {
+        clear: both;
+        width: 80%;
+    }
+    
+    h3{
+        font-size: 4em;
+    }
+    
+    .nyhedstekst{
+        font-size: 1.5em;
+    }
+    
+    h4 {
+        font-size: 2.4em;
+    }
+    
+    .tank {
+          width: 45%;
+        float: left;
+        margin-right: 5%;
+        margin-top: 2vh;
+        height: 50vh;
+    }
+    
+    .fly {
+          width: 45%;
+        float: right;
+        margin-top: 2vh;
+        height: 50vh;
+    }
+    
+    .bunkere {
+          width: 45%;
+        float: left;
+        margin-right: 5%;
+        margin-top: 2vh;
+        height: 50vh;
+    }
+    
+  
+    
+    .kanoner {
+          width: 45%;
+        float: right;
+        margin-top: 2vh;
+        height: 50vh;
+    }
+    
+      .springeren {
+          width: 90%;
+        clear: both;
+        margin-right: 5%;
+        margin-top: 2vh;
+        height: 70vh
+    }
+    
+    .tank2 {
+        height: 100vh
+    }
+    
+    .fly2 {
+        height: 100vh
+    }
+    
+    .bunkere {
+        height: 100vh
+    }
+    
+    .kanoner2 {
+        height: 100vh
+    }
+    
+    .springeren {
+        height: 100vh
+    }
+    
+    .bunkere2{
+        height: 100vh
+    }
+    
+    .hvemerviimg {
+        height: 100vh;
+    }
+}
+
+
+
+/* Media Qurries for tablet */
+
+@media screen and (min-width: 768px) {
+    body{
+        
+    }
+}
+
+/* Media Qurries for pc */
+
+@media screen and (min-width: 992px) {
+    body{
+        
+    }
+}
+
+
