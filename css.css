@@ -17,7 +17,7 @@ header {
     background-size: contain;
     background-repeat: no-repeat;
     margin-top: 2vh;
-    background-color: 
+   
 }
 
 h1 {
@@ -241,7 +241,7 @@ footer{
 /* Praktiske informationer */
 
 .informationer {
-    height: 50vh;
+    height: 60vh;
     widows: 90%;
     background: rgba(120,120,120, .2);
 }
@@ -250,10 +250,111 @@ footer{
     font-size: 25px;
     width: 60%;
     float: left;
+    margin-left: 15px;
 
 }
 
 .sponsorimg{
     float: right;
     padding-right: 50px;
+}
+
+/* Fortet htmlside */
+
+.tank {
+    border: 1px solid;
+    height: 30vh;
+    width: 90%;
+    margin-bottom: 2.5vh;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url(Billeder/panserjager.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fly {
+     border: 1px solid;
+    height: 30vh;
+    width: 90%;
+    margin-bottom: 2.5vh;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url(Billeder/draken.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bunkere {
+     border: 1px solid;
+    height: 30vh;
+    width: 90%;
+    margin-bottom: 2.5vh;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url(Billeder/underjordiske-bunkere.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.kanoner {
+     border: 1px solid;
+    height: 30vh;
+    width: 90%;
+    margin-bottom: 2.5vh;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url(Billeder/kanon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.springeren {
+     border: 1px solid;
+    height: 30vh;
+    width: 90%;
+    margin-bottom: 2.5vh;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url(Billeder/springeren.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Historien */
+
+.historierubrik {
+    height: 215vh;
+    widows: 90%;
+    background: rgba(120,120,120, .2);
+}
+
+.historietekst{
+    font-size: 25px;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px; 
+    column-count: 2;
+}
+
+/* Tag hele familien med */
+
+
+.familierubrik {
+    height: 215vh;
+    widows: 90%;
+    background: rgba(120,120,120, .2);
+    
+}
+
+.familie {
+     font-size: 25px;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px; 
+}
+
+.familiefoto {
+    
 }
