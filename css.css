@@ -33,6 +33,7 @@ h1 {
 
 nav {
     margin-bottom: 2vh;
+    margin-top: 2vh;
 }
  
 /* burger menu */
@@ -551,7 +552,7 @@ input[type=submit]:hover {
 }
     
 
-@media screen and (min-width: 600px) and (orientation: landscape) {
+@media only screen and (min-width: 600px) and (orientation: landscape) {
     header {
         height: 40vh;
     }
@@ -648,7 +649,7 @@ input[type=submit]:hover {
         height: 100vh
     }
     
-    .bunkere {
+    .bunkere2 {
         height: 100vh
     }
     
@@ -656,7 +657,7 @@ input[type=submit]:hover {
         height: 100vh
     }
     
-    .springeren {
+    .springeren2 {
         height: 100vh
     }
     
@@ -673,10 +674,120 @@ input[type=submit]:hover {
 
 /* Media Qurries for tablet */
 
-@media screen and (min-width: 768px) {
-    body{
+@media only screen and (min-width: 1080px) {
+        header {
+        height: 20vh;
+    }
+    .praktiskeoplysninger {
+        width: 45%;
+        float: left;
+        margin-right: 5%;
+        margin-top: 2vh;
+    }
+    
+    .fortet {
+        width: 45%;
+        float: right;
+        margin-top: 2vh;
+    }
+    
+    .historien {
+         width: 45%;
+        float: left;
+        margin-right: 5%
+    }
+    
+    .familienmed {
+        width: 45%;
+        float: right;
+    }
+    
+    h2 {
+        font-size: 2em
+    }
+    
+    .nyheder {
+        clear: both;
+        width: 80%;
+    }
+    
+    h3{
+        font-size: 4em;
+    }
+    
+    .nyhedstekst{
+        font-size: 1.5em;
+    }
+    
+    h4 {
+        font-size: 2.4em;
+    }
+    
+    .tank {
+          width: 45%;
+        float: left;
+        margin-right: 5%;
+        margin-top: 2vh;
         
     }
+    
+    .fly {
+          width: 45%;
+        float: right;
+        margin-top: 2vh;
+        
+    }
+    
+    .bunkere {
+          width: 45%;
+        float: left;
+        margin-right: 5%;
+        margin-top: 2vh;
+        
+    }
+    
+  
+    
+    .kanoner {
+          width: 45%;
+        float: right;
+        margin-top: 2vh;
+        
+    }
+    
+      .springeren {
+          width: 90%;
+        clear: both;
+        margin-right: 5%;
+        margin-top: 2vh;
+    }
+    
+    .tank2 {
+        height: 40em;
+    }
+    
+    .fly2 {
+        height: 40em;
+    }
+    
+    .bunkere2 {
+        height: 40em;
+    }
+    
+    .kanoner2 {
+        height: 40em;
+    }
+    
+    .springeren2 {
+        height: 40em;
+    }
+    
+    .bunkere2{
+        height: 40em;
+    }
+    
+    
+}
 }
 
 /* Media Qurries for pc */
