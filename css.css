@@ -6,20 +6,22 @@
     
 
 
+
 body{
+    font-family: 'B612', sans-serif;
     background: rgba(120,120,120, .1);
 }
 
-header {
-    
-    height: 15vh;
-    width: auto;
-    background-image: url(Billeder/Tegnebr%C3%A6t%201.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-top: 2vh;
-   
+
+.logo {
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 100%;
+    clear: both;
+    margin-bottom: 1vh;
 }
+
 
 h1 {
     opacity: 0;
@@ -32,8 +34,7 @@ h1 {
 }
 
 nav {
-    margin-bottom: 2vh;
-    margin-top: 2vh;
+    margin-bottom: 1em;
 }
  
 /* burger menu */
@@ -76,7 +77,7 @@ nav {
 
 
 h2 {
-    font-size: 90px;
+    font-size: 3.5em;
     text-align: center;
     background: rgba(255,255,255, .5);
 }
@@ -88,7 +89,6 @@ h2 {
 
 
 .praktiskeoplysninger {
-    border: 1px solid;
     height: 30vh;
     width: 90%;
     margin-bottom: 2.5vh;
@@ -101,7 +101,6 @@ h2 {
 
 
 .fortet {
-    border: 1px solid;
     height: 30vh;
     width: 90%;
     margin-bottom: 2.5vh;
@@ -113,7 +112,6 @@ h2 {
 }
 
 .historien {
-    border: 1px solid;
     height: 30vh;
     width: 90%;
     margin-bottom: 2.5vh;
@@ -125,7 +123,6 @@ h2 {
 }
 
 .familienmed {
-    border: 1px solid;
     height: 30vh;
     width: 90%;
     margin-bottom: 2.5vh;
@@ -138,23 +135,25 @@ h2 {
 
 
 .nyheder {
-    height: 100em;
+    height: auto;
     width: 90%;
     background: rgba(120,120,120, .2);
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: 2vh;
+    
 }
 
 .top {
-    height: 10em;
+    height: 8em;
     background: rgba(120,120,120, .2);
 }
 
 h3 {
-    font-size: 90px;
+    font-size: 3em;
     text-align: center;
     height: 10em;
-    padding-top: 25px
+    padding-top: 25px;
     
 }
 
@@ -172,13 +171,13 @@ h3 {
 
 
 h4 {
-    font-size: 40px;
+    font-size: 2em;
     margin-right: 15px;
     margin-left: 15px;
 }
 
 .nyhedstekst {
-    font-size: 25px;
+    font-size: 1.5em;
     margin-right: 15px;
     margin-left: 15px;
 }
@@ -186,10 +185,13 @@ h4 {
 
 footer{
     height: 40em;
-    width: 100%;
+    width: 90%;
     background: rgba(120,120,120, .2);
-    float: right;
-    margin-top: 2vh
+    margin-top: 2vh;
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    
     
     
 }
@@ -203,9 +205,7 @@ footer{
 }
 
 .some {
-    height: 5em;
-   
-    
+    height: 3em;
 }
 
 .findos {
@@ -217,23 +217,23 @@ footer{
 }
 .aabningstider{
     
-    height: 10em;
+    height: 5em;
     width: 100%;
     float: left;
     text-align: center;
 }
 
 .footeraabningstider {
-    font-size: 30px;
+    font-size: 1em;
 }
 
 .footertekst {
-    font-size: 40px;
+    font-size: 1.5em;
     padding-top: 10px
 }
 
 .footertekstfindos {
-    font-size: 30px;
+    font-size: 1em;
     color: black;
 }
 
@@ -242,9 +242,11 @@ footer{
 /* Praktiske informationer */
 
 .informationer {
-    height: 65em;
-    widows: 90%;
+    height: 50em;
+    width: 90%;
     background: rgba(120,120,120, .2);
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .praktiskinfotekst{
@@ -263,7 +265,6 @@ footer{
 /* Fortet htmlside */
 
 .tank {
-    border: 1px solid;
     height: 30vh;
     width: 90%;
     margin-bottom: 2.5vh;
@@ -275,7 +276,6 @@ footer{
 }
 
 .tank2 {
-    border: 1px solid;
     height: 30vh;
     width: 90%;
     margin-bottom: 2.5vh;
@@ -287,7 +287,6 @@ footer{
 }
 
 .fly {
-     border: 1px solid;
     height: 30vh;
     width: 90%;
     margin-bottom: 2.5vh;
@@ -299,7 +298,6 @@ footer{
 }
 
 .fly2 {
-     border: 1px solid;
     height: 30vh;
     width: 90%;
     margin-bottom: 2.5vh;
@@ -311,7 +309,6 @@ footer{
 }
 
 .bunkere {
-     border: 1px solid;
     height: 30vh;
     width: 90%;
     margin-bottom: 2.5vh;
@@ -323,7 +320,6 @@ footer{
 }
 
 .bunkere2 {
-     border: 1px solid;
     height: 30vh;
     width: 90%;
     margin-bottom: 2.5vh;
@@ -336,7 +332,6 @@ footer{
 
 
 .kanoner {
-     border: 1px solid;
     height: 30vh;
     width: 90%;
     margin-bottom: 2.5vh;
@@ -348,7 +343,6 @@ footer{
 }
 
 .kanoner2 {
-     border: 1px solid;
     height: 30vh;
     width: 90%;
     margin-bottom: 2.5vh;
@@ -360,7 +354,6 @@ footer{
 }
 
 .springeren {
-     border: 1px solid;
     height: 30vh;
     width: 90%;
     margin-bottom: 2.5vh;
@@ -372,7 +365,6 @@ footer{
 }
 
 .springeren2 {
-     border: 1px solid;
     height: 30vh;
     width: 90%;
     margin-bottom: 2.5vh;
@@ -387,13 +379,14 @@ footer{
 /* Historien */
 
 .historierubrik {
-    height: 235em;
-    widows: 90%;
+    width: 90%;
     background: rgba(120,120,120, .2);
+    padding-bottom: 1vh;
+    margin: auto;
 }
 
 .historietekst{
-    font-size: 25px;
+    font-size: 1em;
     width: 100%;
     padding-left: 15px;
     padding-right: 15px; 
@@ -404,9 +397,9 @@ footer{
 
 
 .familierubrik {
-    height: 15em;
     widows: 90%;
     background: rgba(120,120,120, .2);
+    padding-bottom: 1vh;
     
 }
 
@@ -419,9 +412,8 @@ footer{
 }
 
 .familiefoto {
-      border: 1px solid;
-    height: 30vh;
-    width: 90%;
+    height: 15em;
+    width: 20%;
     margin-top: 2.5vh;
     margin-bottom: 2.5vh;
     margin-right: auto;
@@ -462,7 +454,8 @@ input[type=submit]:hover {
     margin-top: 2.5vh;
     margin-right: auto;
     margin-left: auto;
-    padding: 15px
+    padding: 15px;
+    margin-bottom: 2vh;
 }
 
 .bokssize {
@@ -472,25 +465,31 @@ input[type=submit]:hover {
 /* Henvendelses funktion */
 
 .henvendelse {
-     height: 10em;
-    widows: 90%;
+     height: auto;
+    width: 90%;
     background: rgba(120,120,120, .2);
+    padding-bottom: 1vh;
+    margin: auto;
+    
 }
 
 /* Hvem er v */
 
 .hvemervitekst {
-    font-size: 25px;
-    width: 100%;
+    font-size: 1em;
+    width: 90%;
     padding-left: 15px;
     padding-right: 15px; 
     column-count: 1;
 }
 
 .hvemervirubrik {
-    height: 18em;
-    widows: 90%;
+    height: auto;
+    width: 90%;
     background: rgba(120,120,120, .2);
+    margin: auto;
+    margin-bottom: 1vh;
+    padding-bottom: 1vh;
 }
 
 .hvemerviimg {
@@ -509,7 +508,7 @@ input[type=submit]:hover {
 /* Undersider til "fortet" */
 
 .pansertekst {
-    font-size: 25px;
+    font-size: 1em;
     width: 100%;
     padding-left: 15px;
     padding-right: 15px; 
@@ -517,38 +516,50 @@ input[type=submit]:hover {
 }
 
 .panserrubrik {
-      height: 65em;
-    widows: 90%;
+    width: 90%;
     background: rgba(120,120,120, .2);
-    margin-bottom: 2.5vh
+    margin-bottom: 2.5vh;
+    height: auto;
+    margin: auto;
+    margin-bottom: 1vh;
+    padding-bottom: 1vh;
 }
 
 .bunkerrubrik {
-      height: 40em;
-    widows: 90%;
+      height: auto;
+    width: 90%;
     background: rgba(120,120,120, .2);
-    margin-bottom: 2.5vh
+    margin-bottom: 2.5vh;
+    margin: auto;
+    margin-bottom: 1vh;
+    padding-bottom: 1vh;
+    
 }
 
 .luftvåbenrubrik {
-       height: 73em;
-    widows: 90%;
+    height: auto;
+    width: 90%;
     background: rgba(120,120,120, .2);
-    margin-bottom: 2.5vh
+     margin: auto;
+    margin-bottom: 1vh;
+    padding-bottom: 1vh;
 }
 
 .kanonerrubrik {
-      height: 42em;
-    widows: 90%;
+      height: auto;
+    width: 90%;
     background: rgba(120,120,120, .2);
-    margin-bottom: 2.5vh
+     margin: auto;
+    margin-bottom: 1vh;
+    padding-bottom: 1vh;
 }
 
 .skiberubrik {
-         height: 146em;
-    widows: 90%;
+    height: auto;
+    width: 90%;
     background: rgba(120,120,120, .2);
-    margin-bottom: 2.5vh
+    margin-bottom: 1vh;
+    padding-bottom: 1vh;
 }
     
 
@@ -559,25 +570,27 @@ input[type=submit]:hover {
     .praktiskeoplysninger {
         width: 45%;
         float: left;
-        margin-right: 5%;
         margin-top: 2vh;
+        margin-left: 3%;
     }
     
     .fortet {
         width: 45%;
         float: right;
         margin-top: 2vh;
+        margin-right: 3%;
     }
     
     .historien {
          width: 45%;
         float: left;
-        margin-right: 5%
+        margin-left: 3%;
     }
     
     .familienmed {
         width: 45%;
         float: right;
+        margin-right: 3%;
     }
     
     h2 {
@@ -587,18 +600,64 @@ input[type=submit]:hover {
     .nyheder {
         clear: both;
         width: 80%;
+        height: 46em
+        
+    }
+    
+    .nyhed1 {
+        height: 8em
+    }
+    
+    .nyhed2 {
+        height: 8em
+    }
+    
+    .top {
+        height: 6em
     }
     
     h3{
-        font-size: 4em;
+        font-size: 2em;
     }
     
     .nyhedstekst{
-        font-size: 1.5em;
+        font-size: 1.0em;
     }
     
     h4 {
-        font-size: 2.4em;
+        font-size: 1.5em;
+    }
+    
+    footer {
+        height: 19em;
+    }
+    
+    .foelgos {
+        height: 7em;
+        border-bottom: dotted 3px;
+    }
+    
+    .findos {
+        height: 8em;
+        border-bottom: dotted 3px;
+    }
+    
+    .footertekst {
+        font-size: 1.3em
+    }
+    
+    
+    .footertekstfindos {
+        font-size: 0.8em
+    }
+    
+    .footeraabningstider {
+        font-size: 0.8em;
+    }
+    
+    
+    .some {
+        transform: scale(0.4);
     }
     
     .tank {
@@ -642,27 +701,33 @@ input[type=submit]:hover {
     }
     
     .tank2 {
-        height: 100vh
+         height: 77vh;
+        background-size: contain
     }
     
     .fly2 {
-        height: 100vh
+        height: 77vh;
+        background-size: contain
     }
     
     .bunkere2 {
-        height: 100vh
+         height: 77vh;
+        background-size: contain
     }
     
     .kanoner2 {
-        height: 100vh
+         height: 77vh;
+        background-size: contain
     }
     
     .springeren2 {
-        height: 100vh
+        height: 77vh;
+        background-size: contain
     }
     
     .bunkere2{
-        height: 100vh
+         height: 77vh;
+        background-size: contain
     }
     
     .hvemerviimg {
@@ -675,9 +740,7 @@ input[type=submit]:hover {
 /* Media Qurries for tablet */
 
 @media only screen and (min-width: 1080px) {
-    header {
-        height: 20vh;
-    }
+   
     
     .praktiskeoplysninger {
         width: 45%;
@@ -789,13 +852,167 @@ input[type=submit]:hover {
     
     
 }
-}
 
 /* Media Qurries for pc */
 
-@media screen and (min-width: 992px) {
-    body{
+@media screen and (min-width: 1081px) {
+    .logo {
+        transform: scale(0.7)
+    }
+    
+    .rightblock{
+        height: auto;
+        width: 50%;
+        float: right;
+        clear: both;
+        margin-right: 2vh;
         
+    }
+    
+    
+    
+    .praktiskeoplysninger {
+        margin-right: 0px;
+        width: 100%;
+        margin-left: 0px; 
+        float: right;
+        margin: 0px;
+        display: block;
+        margin-bottom: 2vh
+        
+        
+    }
+    
+    .fortet {
+         margin-right: 0px;
+        width: 100%;
+        margin-left: 0px; 
+        float: right;
+        margin: 0px;
+        display: block;
+        margin-bottom: 2vh
+        
+    }
+    
+    
+    .historien {
+         margin-right: 0px;
+        width: 100%;
+        margin-left: 0px; 
+        float: right;
+        margin: 0px;
+        display: block;
+        margin-bottom: 2vh
+       
+    }
+    
+    .familienmed {
+        height: 30em;
+        width: 100%; 
+        float: right;
+        margin: 0px;
+        display: block;
+        margin-bottom: 2vh;
+        
+    }
+    
+    .nyheder {
+        width: 40%;
+        height: 45em;
+        float: left;
+        margin: 0px;
+        clear: left;
+        margin-bottom: 1vh;
+    }
+    
+      h3{
+        font-size: 3em;
+    }
+    
+    .nyhedstekst{
+        font-size: 1em;
+    }
+    
+    h4 {
+        font-size: 1.5em;
+    }
+    
+    h2 {
+        font-size: 3em;
+    }
+    
+    .formcontainer {
+        width: 50%;
+        float: left;
+    }
+    
+    
+    .bokssize {
+    font-size: 0.5em
+}
+    input[type=text], select, textarea {
+        font-size: 0.5em;
+    }
+    
+    .indsendknap {
+        font-size: 1em;
+    }
+    
+     .tank2 {
+         
+         width: 50%;
+        background-size: contain;
+    }
+    
+    .fly2 {
+         width: 50%;
+        background-size: contain
+    }
+    
+    .bunkere2 {
+         width: 50%;
+        background-size: contain
+    }
+    
+    .kanoner2 {
+          width: 50%;
+        background-size: contain
+    }
+    
+    .springeren2 {
+         width: 50%;
+        background-size: contain
+    }
+    
+    .bunkere2{
+          width: 50%;
+        background-size: contain
+    }
+    
+    .tank{
+        margin-left: 1vh;
+    }
+    
+    .fly {
+        margin-right: 1vh;
+    }
+    
+    .bunkere {
+        margin-left: 1vh;
+    }
+    
+    
+    .kanoner {
+        margin-right: 1vh;
+    }
+    
+    .hvemerviimg {
+         width: 50%;
+        background-size: contain
+    }
+    
+    .sponsorimg {
+        transform: scale(1.4)
     }
 }
 
