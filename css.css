@@ -160,13 +160,15 @@ h3 {
 
 .nyhed1 {
     height: 18em;
-    padding-top: 5px
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .nyhed2 {
     height: 18em;
     background: rgba(120,120,120, .2);
-    padding-top: 5px
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 
@@ -184,7 +186,6 @@ h4 {
 
 
 footer{
-    height: 40em;
     width: 90%;
     background: rgba(120,120,120, .2);
     margin-top: 2vh;
@@ -198,7 +199,7 @@ footer{
 
 .foelgos {
     border-bottom: dotted 6px;
-    height: 12em;
+    padding-bottom: 1vh;
     width: 100%;
     text-align: center;
     
@@ -210,17 +211,19 @@ footer{
 
 .findos {
     border-bottom: dotted 6px;
-    height: 16em;
     width: 100%;
     float: left;
     text-align: center;
+    padding-bottom: 1vh;
+    background: rgba(120,120,120, .2);
 }
 .aabningstider{
     
-    height: 5em;
     width: 100%;
     float: left;
     text-align: center;
+    padding-bottom: 1vh;
+    background: rgba(120,120,120, .2);
 }
 
 .footeraabningstider {
@@ -493,9 +496,8 @@ input[type=submit]:hover {
 }
 
 .hvemerviimg {
-     border: 1px solid;
-    height: 30vh;
-    width: 90%;
+    height: 10vh;
+    width: 50%;
     margin-bottom: 2.5vh;
     margin-right: auto;
     margin-left: auto;
@@ -600,16 +602,18 @@ input[type=submit]:hover {
     .nyheder {
         clear: both;
         width: 80%;
-        height: 46em
+        height: auto;
         
     }
     
     .nyhed1 {
-        height: 8em
+        height: auto;
+        margin-bottom: 1vh
     }
     
     .nyhed2 {
-        height: 8em
+        height: auto;
+        margin-bottom: 1vh
     }
     
     .top {
@@ -918,11 +922,11 @@ input[type=submit]:hover {
     
     .nyheder {
         width: 40%;
-        height: 45em;
+        height: auto;
         float: left;
-        margin: 0px;
         clear: left;
         margin-bottom: 1vh;
+        margin-left: 1vh;
     }
     
       h3{
@@ -943,13 +947,13 @@ input[type=submit]:hover {
     
     .formcontainer {
         width: 50%;
-        float: left;
     }
     
     
     .bokssize {
     font-size: 0.5em
 }
+    
     input[type=text], select, textarea {
         font-size: 0.5em;
     }
@@ -1008,7 +1012,8 @@ input[type=submit]:hover {
     
     .hvemerviimg {
          width: 50%;
-        background-size: contain
+        background-size: contain;
+        height: 25em;
     }
     
     .sponsorimg {
