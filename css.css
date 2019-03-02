@@ -400,7 +400,7 @@ footer{
 
 
 .familierubrik {
-    widows: 90%;
+    width: 90%;
     background: rgba(120,120,120, .2);
     padding-bottom: 1vh;
     
@@ -564,6 +564,17 @@ input[type=submit]:hover {
     padding-bottom: 1vh;
 }
     
+
+
+
+.video {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50em;
+    
+}
 
 @media only screen and (min-width: 600px) and (orientation: landscape) {
     header {
@@ -911,7 +922,7 @@ input[type=submit]:hover {
     }
     
     .familienmed {
-        height: 30em;
+        height: 33em;
         width: 100%; 
         float: right;
         margin: 0px;
@@ -1018,6 +1029,14 @@ input[type=submit]:hover {
     
     .sponsorimg {
         transform: scale(1.4)
+    }
+    
+    .video {
+        width: 40%;
+        float: left;
+        margin-left: 1vh;
+        margin-bottom: 1vh
+            
     }
 }
 
