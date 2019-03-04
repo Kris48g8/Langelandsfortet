@@ -22,15 +22,9 @@ body{
     margin-bottom: 1vh;
 }
 
-
-h1 {
-    opacity: 0;
-    font-size: 120px;
-    position: relative;
-    float: left;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); 
+.frontfont {
+    font-size: 0.6em;
+    width: 90%;
 }
 
 nav {
@@ -403,6 +397,8 @@ footer{
     width: 90%;
     background: rgba(120,120,120, .2);
     padding-bottom: 1vh;
+    margin: auto;
+    
     
 }
 
@@ -564,17 +560,6 @@ input[type=submit]:hover {
     padding-bottom: 1vh;
 }
     
-
-
-
-.video {
-    width: 90%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 50em;
-    
-}
 
 @media only screen and (min-width: 600px) and (orientation: landscape) {
     header {
@@ -748,6 +733,9 @@ input[type=submit]:hover {
     .hvemerviimg {
         height: 100vh;
     }
+    .frontfont {
+        font-size: 1em;
+    }
 }
 
 
@@ -865,6 +853,10 @@ input[type=submit]:hover {
         height: 40em;
     }
     
+        .frontfont {
+        font-size: 1em;
+    }
+    
     
 }
 
@@ -922,7 +914,7 @@ input[type=submit]:hover {
     }
     
     .familienmed {
-        height: 33em;
+        height: 32.8em;
         width: 100%; 
         float: right;
         margin: 0px;
@@ -1031,12 +1023,16 @@ input[type=submit]:hover {
         transform: scale(1.4)
     }
     
+        .frontfont {
+        font-size: 1em;
+    }
+    
     .video {
         width: 40%;
         float: left;
         margin-left: 1vh;
-        margin-bottom: 1vh
-            
+        height: 50em;
+        margin-bottom: 1vh;
     }
 }
 
