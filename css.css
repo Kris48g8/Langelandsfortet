@@ -71,7 +71,7 @@ nav {
 
 
 h2 {
-    font-size: 3.5em;
+    font-size: 2em;
     text-align: center;
     background: rgba(255,255,255, .5);
 }
@@ -139,12 +139,12 @@ h2 {
 }
 
 .top {
-    height: 8em;
+    height: 5em;
     background: rgba(120,120,120, .2);
 }
 
 h3 {
-    font-size: 3em;
+    font-size: 2em;
     text-align: center;
     height: 10em;
     padding-top: 25px;
@@ -167,13 +167,13 @@ h3 {
 
 
 h4 {
-    font-size: 2em;
+    font-size: 1.5em;
     margin-right: 15px;
     margin-left: 15px;
 }
 
 .nyhedstekst {
-    font-size: 1.5em;
+    font-size: 1em;
     margin-right: 15px;
     margin-left: 15px;
 }
@@ -239,7 +239,7 @@ footer{
 /* Praktiske informationer */
 
 .informationer {
-    height: 50em;
+    height: 70em;
     width: 90%;
     background: rgba(120,120,120, .2);
     margin-left: auto;
@@ -247,7 +247,7 @@ footer{
 }
 
 .praktiskinfotekst{
-    font-size: 25px;
+    font-size: 1em;
     width: 60%;
     float: left;
     margin-left: 15px;
@@ -558,6 +558,10 @@ input[type=submit]:hover {
     background: rgba(120,120,120, .2);
     margin-bottom: 1vh;
     padding-bottom: 1vh;
+}
+
+.video {
+    width: 100%;
 }
     
 
